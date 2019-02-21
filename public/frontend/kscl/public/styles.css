@@ -1,0 +1,1111 @@
+.custom-header {
+  background: #292c2f;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 0;
+}
+
+.custom-header a.navbar-brand {
+  color: #4a4a4a;
+  font: normal 28px Cookie, Arial, Helvetica, sans-serif;
+  line-height: 0.5;
+  margin-right: 40px;
+  background: #292c2f;
+}
+
+.custom-header a.navbar-brand span {
+  color: #bc40df;
+}
+
+.custom-header ul.nav.navbar-nav.links li a {
+  font-size: 14px;
+  opacity: 0.9;
+  text-decoration: none;
+  color: #fff;
+  background: #292c2f;
+  border: 0;
+  font-family: poppins;
+}
+
+.custom-header ul.nav.navbar-nav li a:hover {
+  opacity: 1;
+}
+
+.custom-header .badge {
+  position: absolute;
+  top: 4px;
+  border-radius: 2px;
+  font-size: 11px;
+  color: #fff;
+  background-color: #2A6A92;
+  padding: 2px 4px;
+  font-weight: normal;
+}
+
+.custom-header li.dropdown, .custom-header li.dropdown.open {
+  background: #3a3c3e;
+}
+
+.custom-header li.dropdown .dropdown-toggle {
+  border-radius: 2px;
+  color: #fff;
+  padding: 8px 14px;
+  background: #3a3c3e;
+  opacity: 0.9;
+  border: 0;
+  margin: 0;
+}
+
+.custom-header li.dropdown .dropdown-toggle:focus, .custom-header li.dropdown .dropdown-toggle:hover, .custom-header li.dropdown .dropdown-toggle:active {
+  background: #3a3c3e;
+  color: #fff;
+}
+
+.custom-header ul.nav.navbar-nav.navbar-right .dropdown li a {
+  font: bold 13px Arial, Helvetica, sans-serif;
+}
+
+img.dropdown-image {
+  border-radius: 50%;
+  width: 32px;
+  margin-left: 10px;
+}
+
+.custom-header .dropdown ul {
+  background-color: #3a3c3e;
+  border: 0;
+  min-width: 140px;
+}
+
+.custom-header .dropdown ul li {
+  background-color: #3a3c3e;
+  padding: 7px;
+  text-align: center;
+}
+
+.custom-header .dropdown ul li a {
+  background: #3a3c3e;
+  border-radius: 2px;
+  color: #fff;
+  padding: 0;
+}
+
+.custom-header .dropdown ul li a:active, .custom-header .dropdown ul li a:focus, .custom-header .dropdown ul li a:hover {
+  background: #3a3c3e;
+}
+
+.custom-header .dropdown ul li.active a {
+  color: #e9ac09 !important;
+}
+
+
+.row.fixedrow {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.h1, h1, .h2, h2, .h3, h3, .h4, h4, .h5, h5 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  padding: 0px;
+  margin: 0px;
+}
+
+#footer h1 {
+  color: #fff;
+  text-align: center;
+}
+
+.h3, h3 {
+  font-size: 28px;
+  line-height: 69px;
+  letter-spacing: 0.3px;
+}
+
+#footer h3 {
+  color: #ffffff;
+}
+
+.h1, h1 {
+  font-size: 45px;
+  letter-spacing: 0.3px;
+}
+
+#footerheadingunderline {
+  vertical-align: middle;
+  opacity: 0.4;
+}
+
+.footerunderlinewrapper {
+  text-align: center;
+}
+
+#footer p {
+  color: #ffffff;
+}
+
+p {
+  font-family: poppins;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+}
+
+ul li {
+}
+
+ul li {
+  font-family: poppins;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+  list-style-type: none;
+  padding-bottom: 5px;
+}
+
+#footer ul li a {
+  color: #ffffff;
+}
+
+#footer ul {
+  padding: 0px;
+}
+
+#footer {
+  background-color: #1342D0;
+  padding-top: 100px;
+}
+
+#footer hr {
+  border: 1px solid #19a987;
+  padding-bottom: 100px;
+}
+
+#horizontalpartition {
+  border-top: 1px solid #19a987;
+  width: 100%;
+  height: 60px;
+}
+
+#footercopyrighttext {
+  background-color: #0f3abf;
+}
+
+#footercopyrighttext p {
+  text-align: center;
+  color: #fff;
+  margin-top: 1rem;
+}
+
+c {
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
+#divRowMainFeatures h1 {
+  color: #1342d0;
+}
+
+.divMainFeatures {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#divMainFeaturesIcon {
+  padding-top: 45px;
+}
+
+#divRowMainFeatures {
+  padding: 50px 0px;
+}
+
+#horizontallinemainfeatures {
+  margin-bottom: 30px;
+  margin-top: 20px;
+  background-image: linear-gradient(to right, #123ecf, #53c1fd 48%, #a8e63c);
+  height: 2px;
+}
+
+#divRowVCCOnlineService h1 {
+  text-align: center;
+}
+
+.UnderlineHeadingH1 {
+  text-align: center;
+}
+
+#divRowVCCOnlineService h1 {
+  color: #1342d0;
+}
+
+.divColorCaptionBox {
+  background-image: url("../../assets/img/gradient%20bg.jpg");
+  background-size: cover;
+  padding: 20px 30px;
+  color: #ffffff;
+  background-repeat: no-repeat;
+  margin-bottom: 40px;
+}
+
+.divColorCaptionBox p {
+  font-size: 20px;
+  padding: 5px 0px;
+}
+
+.divCaptionBoxIcon {
+  width: 95%;
+  float: right;
+  background-color: #1342D0;
+  min-height: 200px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.divVCCCaptionBox h6 {
+  color: #1443D1;
+  font-family: poppins;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.btnEnroll {
+  color: #3F98F2;
+  font-family: poppins;
+  font-weight: 600;
+  float: right;
+  border: 1px solid #3F98F2;
+  border-radius: 30px;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+#divRowVCCOnlineService {
+  padding: 100px 0px;
+}
+
+.divHeadingBottomH6 {
+  text-align: left;
+  word-spacing: 6px;
+  width: 59px;
+}
+
+.divHeadingBottomH6 img {
+  height: 4px;
+}
+
+.para {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  text-align: left;
+}
+
+@media (max-width: 600px) {
+  .para {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+  }
+}
+
+@media (max-width: 600px) {
+  .divColorCaptionBox.floatingbox {
+    position: absolute;
+    display: inline-block;
+    float: left;
+    right: 45%;
+    top: 40px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #divKanpurSmartCityImage {
+    height: 98%;
+    width: 105%;
+    padding: 8px;
+    display: inline-block;
+    position: relative;
+    top: 70px;
+  }
+}
+
+#divRowKanpurSmartCity h1 {
+  color: #1342d0;
+}
+
+.btnReadMore {
+  font-family: poppins;
+  color: #4A4A4A;
+  padding: 10px 25px;
+  border: 1px solid #f2f2f2;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 21px 33px 3px rgba(214,214,214,0.51);
+  -moz-box-shadow: 0px 21px 33px 3px rgba(214,214,214,0.51);
+  box-shadow: 0px 21px 33px 3px rgba(214,214,214,0.51);
+}
+
+.btnReadMore {
+  font-family: poppins;
+  color: #4A4A4A;
+  padding: 10px 25px;
+  border: 1px solid #f2f2f2;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 21px 33px 3px rgba(214,214,214,0.51);
+  -moz-box-shadow: 0px 21px 33px 3px rgba(214,214,214,0.51);
+  box-shadow: 0px 21px 33px 3px rgba(214,214,214,0.51);
+}
+
+.btnReadMore:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+#divRowKanpurSmartCity {
+  padding: 100px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  #divRowKanpurSmartCity {
+    margin-bottom: 100px;
+  }
+}
+
+@media (min-width: 600px) {
+  #divKanpurSmartCityImage {
+    height: 93%;
+    border: 1px solid #f2f2f2;
+    width: 75%;
+    padding: 8px;
+    display: inline-block;
+    position: relative;
+    top: 25px;
+  }
+}
+
+@media (min-width: 600px) {
+  .divColorCaptionBox.floatingbox {
+    position: absolute;
+    display: inline-block;
+    width: 258px;
+    float: right;
+    right: 0px;
+  }
+}
+
+#divKanpurSmartCityImage:hover {
+  -webkit-box-shadow: 0px 21px 33px 3px rgba(214,214,214,0.51);
+  -moz-box-shadow: 0px 21px 33px 3px rgba(214,214,214,0.51);
+  box-shadow: 0px 21px 33px 3px rgba(214,214,214,0.51);
+}
+
+.divCaptionBoxImage {
+  width: 95%;
+  float: right;
+  min-height: 200px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.divCaptionBox {
+  min-height: 245px;
+  padding: 25px 20px 15px 20px;
+  width: 95%;
+  margin: 25px 0px;
+  display: inline-block;
+  position: relative;
+  top: -45px;
+  z-index: 999;
+  background-color: #ffffff;
+  border: 1px solid #EEEEEE;
+}
+
+.divCaptionBox h6 {
+  color: #1443D1;
+  font-family: poppins;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.divReadMore a {
+  text-align: right;
+  color: #1443D1;
+  font-weight: 600;
+  font-family: poppins;
+  font-size: 16px;
+  float: right;
+}
+
+#divPanCityProjects h1 {
+  text-align: center;
+  color: #1342d0;
+}
+
+.divCaptionBox:hover {
+  -webkit-box-shadow: 0px 21px 33px 3px rgba(214,214,214,0.51);
+  -moz-box-shadow: 0px 21px 33px 3px rgba(214,214,214,0.51);
+  box-shadow: 0px 21px 33px 3px rgba(214,214,214,0.51);
+}
+
+#divAreaBasedDevelopmentProjects h1 {
+  text-align: center;
+  color: #1342d0;
+}
+
+#divAreaBasedDevelopmentProjects .divCaptionBoxImage {
+  float: left;
+}
+
+#divAreaBasedDevelopmentProjects .divCaptionBox {
+  float: right;
+}
+
+#divAreaBasedDevelopmentProjects {
+  padding: 100px 0px;
+}
+
+.divCaptionBoxImage.imgBoardMembers {
+  min-height: 325px;
+}
+
+.boardMembersName {
+  font-weight: bold;
+  font-size: 15px !important;
+  color: #797878;
+}
+
+#divOurBoardMembers p {
+  font-size: 13px;
+  margin: 0px;
+}
+
+#divOurBoardMembers .divCaptionBox {
+  min-height: 0px;
+}
+
+@media (max-width: 600px) {
+  #divOurBoardMembers .imgBoardMembers {
+    width: 80%;
+    height: 95%;
+  }
+}
+
+#divBoardMember {
+}
+
+#divOurBoardMembers {
+  padding: 100px 0px;
+}
+
+@media (max-width: 600px) {
+  #divOurBoardMembers #divBoardMember {
+    padding: 100px 0px;
+  }
+}
+
+.divColorCaptionBox .divColorCaptionBox {
+  padding: 0px;
+}
+
+.h2, h2 {
+}
+
+#divOurBoardMembers .divColorCaptionBox {
+  padding: 10px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ffffff !important;
+  z-index: 1000;
+  -webkit-box-shadow: 0px 21px 33px 3px rgba(214,214,214,0.51) !important;
+  -moz-box-shadow: 0px 21px 33px 3px rgba(214,214,214,0.51) !important;
+  box-shadow: 0px 21px 33px 3px rgba(214,214,214,0.51) !important;
+}
+
+.sticky a {
+  color: #212529 !important;
+}
+
+.navbar-dark .navbar-brand {
+  font-family: poppins;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 18px;
+  padding-right: 24px;
+}
+
+.nav-item a {
+  padding-right: 10px;
+  padding-left: 10px;
+  border-right: 1px solid rgba(255,255,255,0.22);
+}
+
+#navcol-1 ul li {
+  font-family: poppins;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  list-style-type: none;
+}
+
+#navcol-1 ul li a {
+  padding: 0px 15px;
+}
+
+.navbar-brand {
+  line-height: 20px;
+  font-family: poppins;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.fa.fa-bars.menuicon {
+  font-size: 25px;
+}
+
+.navbar-nav.links li a {
+  background-color: rgba(255,255,255,0);
+}
+
+.nav li a {
+  background-color: rgba(255,255,255,0) !important;
+  text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .nav.navbar-nav.links li {
+    border-bottom: 1px solid #4a4a4a1f;
+    padding: 10px 0px;
+    background-color: #ffffff !important;
+    color: #4a4a4a;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .nav.navbar-nav.links li a {
+    color: #4a4a4a !important;
+  }
+}
+
+.navbar-light .navbar-brand {
+  background-color: rgba(255,255,255,0);
+}
+
+#logoimg {
+  content: url(../../assets/img/logo_kanpur_smart_city_white.png);
+}
+
+.sticky #logoimg {
+  content: url(../../assets/img/logo_kanpur_smart_city_sticky.png);
+}
+
+.sticky .nav.navbar-nav.links a {
+  color: #4a4a4a!important;
+}
+
+@media screen and (min-width: 1200px) {
+  .wrapper {
+    background-image: url("../../assets/img/homebanner2.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 98%;
+    min-height: 800px;
+    overflow: auto;
+    max-height: 1000px;
+  }
+}
+
+.sticky .nav ul li a {
+  color: #4a4a4a !important;
+}
+
+.divColorCaptionBox:hover {
+  -webkit-box-shadow: -5px 11px 116px -21px rgba(138,138,138,1);
+  -moz-box-shadow: -5px 11px 116px -21px rgba(138,138,138,1);
+  box-shadow: -5px 11px 116px -21px rgba(138,138,138,1);
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .wrapper {
+    background-image: url("../../assets/img/homebanner2.png");
+    min-height: 700px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 98%;
+    max-height: 800px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .wrapper {
+    background-image: url("../../assets/img/homebanner2.png");
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 96%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .wrapper {
+    background-image: url("../../assets/img/homebanner2.png");
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 96%;
+  }
+}
+
+@media (max-width: 576px) {
+  #layeroval {
+    background-image: url("../../assets/img/Oval.svg");
+    width: 350px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 0px !important;
+    left: 0px !important;
+    padding: 60px !important;
+  }
+}
+
+@media (min-width: 576px) {
+  #layeroval {
+    background-image: url("../../assets/img/Oval.svg");
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 100px;
+  }
+}
+
+#divOvalParagraph {
+  color: #ffffff;
+  line-height: 17px;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 576px) {
+  #divOvalParagraph {
+    color: #ffffff;
+    line-height: 17px;
+    margin-bottom: 0px;
+    font-size: 13px;
+  }
+}
+
+#divOvalHeading h1 {
+  color: #ffffff;
+  font-size: 35px;
+}
+
+@media (max-width: 576px) {
+  #divOvalHeading h1 {
+    color: #ffffff;
+    font-size: 25px;
+  }
+}
+
+#divOvalSubHeading span {
+  font-family: poppins;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+#layeroval {
+  padding: 85px 65px;
+  left: -50px;
+}
+
+#layeroval a {
+  color: #ffffff;
+  float: right;
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .wrapper {
+    background-image: url("../../assets/img/homebanner2.png");
+    max-height: 500px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 98%;
+  }
+}
+
+.sticky {
+  padding: 0px;
+}
+
+.sticky img {
+  width: 130px;
+  padding: 10px 0px;
+}
+
+.slick-dots li button {
+  background: rgba(187,187,187,0.31);
+  border-radius: 10px;
+}
+
+.previous, .previousvcc {
+  float: left;
+}
+
+.next, .nextvcc {
+  float: right;
+}
+
+@media (max-width: 992px) {
+  .divPrevNext {
+    display: none;
+  }
+}
+
+.divPrevNext {
+  padding: 0px 30%;
+}
+
+.slick-dots {
+  bottom: 0px;
+  padding-bottom: 20px;
+}
+
+.slick-active button {
+  background-color: #388beb !important;
+}
+
+.divSnapshot {
+  background-image: url('../../assets/img/kanpur%20area.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.rowsnapshot div {
+  padding-bottom: 40px;
+}
+
+.rowsnapshot img {
+}
+
+.divSnapshot h2 {
+  color: #ffffff;
+}
+
+.divSnapshot p {
+  font-weight: 300;
+  font-size: 23px;
+  color: #fff;
+  padding-top: 30px;
+}
+
+.rowsnapshot .center {
+  padding-top: 60px;
+}
+
+.rowsnapshot img path {
+  fill: #ffffff;
+}
+
+.row.fixedrow.rowsnapshot {
+  padding-top: 50px;
+}
+
+.divNewSnapShots h1 {
+  color: #1342d0;
+  padding-bottom: 25px;
+}
+
+.divNewsDate span {
+  color: #3e98ef;
+  font-size: 15px;
+  font-family: poppins;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.divNewsImage1 {
+  height: 175px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10px 0px;
+}
+
+.divNewsImage {
+  height: 275px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10px 0px;
+}
+
+.divNewsTitle span {
+  font-family: poppins;
+  font-weight: 500;
+  color: #4a4a4a;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.divNewsExcerpt {
+  font-family: poppins;
+  font-weight: 300;
+  color: #4a4a4a;
+  font-size: 15px;
+  line-height: 21px;
+}
+
+#divNewsSnapshotsRow {
+  padding: 70px 0px;
+}
+
+#divNewsTicker .divColorCaptionBox {
+  width: 65%;
+  float: right;
+  height: 190px;
+}
+
+.divNewsTickers .divNewsImage {
+  width: 106px;
+  height: 106px;
+}
+
+.divNewsTickers .divNewsExcerpt span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #4a4a4a;
+  letter-spacing: 1px;
+}
+
+.divNewsTickers .divNewsExcerpt {
+  padding-top: 10px;
+}
+
+#divNewTickerWrapper {
+  padding: 10px;
+  background-color: #ededed;
+}
+
+#divNewsSnapshotsRow .divColorCaptionBox {
+  width: 65%;
+  float: right;
+}
+
+.divNewSnapShots .divPrevNext {
+  padding-top: 10px;
+}
+
+.previousnews, .nextnews, .previous, .next {
+  cursor: pointer;
+}
+
+#divGalleryPic1 {
+  width: 389px;
+  height: 392px;
+  position: absolute;
+  top: 100px;
+  z-index: 4;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  #divGalleryPic1 {
+    width: 367px;
+    height: 371px;
+    position: absolute;
+    top: 136px;
+    z-index: 4;
+  }
+}
+
+#divGalleryPic2 {
+  width: 350px;
+  height: 460px;
+  position: absolute;
+  left: 362px;
+  z-index: 3;
+}
+
+@media screen and (max-width: 992px) {
+  #divGalleryPic2 {
+    width: 295px;
+    height: 386px;
+    position: static !important;
+    left: 362px;
+    z-index: 3;
+    top: 74px;
+  }
+}
+
+#divGalleryPic3 {
+  width: 564px;
+  height: 360px;
+  position: absolute;
+  left: 600px;
+  top: 155px;
+  z-index: 2;
+}
+
+@media screen and (max-width: 992px) {
+  #divGalleryPic3 {
+    width: 564px;
+    height: 360px;
+    position: static !important;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  #divGalleryPic3 {
+    width: 446px;
+    height: 288px;
+    position: absolute;
+    top: 239px;
+    z-index: 2;
+  }
+}
+
+#divGalleryPic4 {
+  width: 542px;
+  height: 415px;
+  position: absolute;
+  top: 450px;
+  left: 101px;
+  z-index: 1;
+}
+
+#divGallery {
+  height: 1000px;
+  padding: 100px 0px;
+}
+
+@media screen and (min-width: 992px) {
+  .gallerypic {
+    border: 1px solid #f2f2f2;
+    padding: 8px;
+    height: 100%;
+    background-color: #ffffff;
+  }
+}
+
+.gallerypic img {
+  width: 100%;
+}
+
+#divGallery h1 {
+  color: #1342d0;
+}
+
+@media screen and (max-width: 992px) {
+  #divGalleryHeading {
+    position: static !important;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  #divGalleryHeading {
+    position: absolute;
+    right: 40px;
+    top: 50px;
+  }
+}
+
+#divGalleryHeading {
+  position: absolute;
+  right: 100px;
+  top: 50px;
+}
+
+@media screen and (min-width: 992px) {
+  #divGalleryWrapperResponsive {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #divGalleryWrapperResponsive {
+    display: block;
+    padding: 100px 0px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #divGalleryWrapper {
+    display: none;
+  }
+}
+
+.slickgallery img {
+  width: 100%;
+}
+
+#divRowAboutKanpur h1 {
+  color: #1342d0;
+}
+
+#divRowAboutKanpur .divColorCaptionBox {
+  float: left !important;
+  left: 0px;
+  top: 30px;
+  z-index: 11;
+}
+
+#divRowAboutKanpur {
+  padding: 100px 0px;
+  height: 780px;
+}
+
+#divAboutKanpurImage1 {
+  padding: 8px;
+  border: 1px solid #f2f2f2;
+  width: 287px;
+  height: 359px;
+  position: absolute;
+  right: 100px;
+  background-color: #ffffff;
+  z-index: 10;
+  top: -35px;
+}
+
+#divAboutKanpurImage2 {
+  padding: 8px;
+  border: 1px solid #f2f2f2;
+  width: 472px;
+  height: 361px;
+  position: absolute;
+  background-color: #ffffff;
+  z-index: 10;
+  top: 275px;
+  left: 47px;
+}
+
+@media (max-width: 992px) {
+  #colAboutKanpur #divAboutKanpurImage1 {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  #colAboutKanpur .divColorCaptionBox {
+    position: static !important;
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  #colAboutKanpur #divAboutKanpurImage2 {
+    display: none;
+  }
+}
+
+#colAboutKanpur {
+}
+

@@ -1,0 +1,134 @@
+/** Responsive CSS for mobile devices ---------*/
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {}
+
+
+@media only screen and (min-width: 768px) {
+	.date-time {
+		text-align: center;
+	}
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px  down) */
+
+@media only screen and (max-width: 1199px) {}
+
+/* Extra Medium devices (tables, 992px down) */
+
+@media only screen and (max-width: 991px) {}
+
+
+/* Extra small devices (phones, 768px down) */
+
+@media only screen and (max-width:767px) {
+	html {
+		overflow-x: hidden;
+	}
+
+	.date-time {
+		text-align: center;
+		padding: 0px !important;
+	}
+
+	.top-navigation ul {
+		float: inherit;
+	}
+
+	.top-navigation ul li {
+		float: left;
+		padding: 2px 4px;
+	}
+
+	.header-bg .navbar-brand {
+		padding: 0px;
+		display: contents;
+	}
+
+	.header-bg .main-nav .navbar-nav .nav-link {
+		padding: .5rem 2rem;
+	}
+
+	.header-bg .main-nav li.nav-item {
+		border-bottom: 0.5px solid #ffffffbd;
+	}
+
+	.navbar-dark .navbar-toggler {
+		color: rgb(255, 255, 255);
+		border-color: rgb(255, 255, 255);
+	}
+
+	.navbar-toggler {
+		margin-right: 10px;
+	}
+
+	.lang-btn {
+		float: right;
+	}
+
+	.carousel-item {
+		height: auto;
+		min-height: auto;
+		background: no-repeat center center scroll;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+	.circle-indicator {
+		bottom: 0px;
+	}
+
+	.slider-block {
+		bottom: 0px;
+	}
+
+	.slider {
+		margin: 20px auto;
+		text-align: center;
+		padding: 10px 21px 6px 15px;
+		color: white;
+	}
+
+	.slider-wrap {
+		height: 180px;
+		margin-bottom: 30px;
+	}
+
+	.slider-block h3 {
+		font-size: 17px;
+		line-height: 26px;
+		font-weight: bold;
+	}
+	.slick-prev { 
+		bottom: 15%; 
+	}
+	.tittle-heading {
+		font-size: 30px;
+	}
+	.tittle-heading-hindi {
+		font-size: 26px; 
+	}
+	.query-block-left {
+		margin-right: 0px;
+	}
+	.query-block-right {
+		margin-left: 0px;
+	}
+}
+
+/* Extra small devices (phones, 575 and down) */
+
+@media only screen and (max-width: 575px) {}

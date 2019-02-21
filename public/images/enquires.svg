@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>enquires</title>
+    <desc>Created with Sketch.</desc>
+    <g id="enquires" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-14" transform="translate(15.000000, 20.000000)" fill-rule="nonzero">
+            <rect id="Rectangle" fill="#8D1813" x="0" y="0" width="73.7647059" height="87.3529412" rx="10"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="7.76470588" y="10.6764706" width="53.3823529" height="5.82352941" rx="2.91176471"></rect>
+            <rect id="Rectangle-Copy-6" fill="#FFFFFF" x="7.76470588" y="23.2941176" width="53.3823529" height="5.82352941" rx="2.91176471"></rect>
+            <rect id="Rectangle-Copy-7" fill="#FFFFFF" x="7.76470588" y="34.9411765" width="53.3823529" height="5.82352941" rx="2.91176471"></rect>
+            <rect id="Rectangle-Copy-8" fill="#FFFFFF" x="7.76470588" y="45.6176471" width="53.3823529" height="5.82352941" rx="2.91176471"></rect>
+            <rect id="Rectangle-Copy-9" fill="#FFFFFF" x="7.76470588" y="58.2352941" width="53.3823529" height="5.82352941" rx="2.91176471"></rect>
+            <path d="M45.8868391,59.2607054 L87.2527148,15.5930687 L88.019514,15.4334416 C92.712414,14.4565049 96.360302,14.9948404 98.771957,17.3444644 C101.145716,19.6571674 101.89763,23.3251239 101.30909,28.2129514 L101.209483,29.040185 L59.0212491,73.1403822 L58.4461457,73.3376401 C47.7612094,77.0025258 44.1528493,77.9591647 42.3614328,76.6483424 C40.0302671,74.9425729 40.9637866,71.8292222 45.7091151,59.7144336 L45.8868391,59.2607054 Z" id="Path-2" stroke="#FFFFFF" stroke-width="5" fill="#3F3F3F"></path>
+            <path d="M48.0369116,60.6262249 C44.57092,69.4748757 43.1711927,74.1430616 43.8377295,74.6307825 C44.5042663,75.1185034 49.1033705,73.8992011 57.635042,70.9728757 L98.8270185,27.9140867 C99.3317714,23.7221125 98.7318883,20.795787 97.027369,19.1351103 C95.3228497,17.4744335 92.4900682,17.056387 88.5290243,17.8809708 L48.0369116,60.6262249 Z" id="Path-2" fill="#8D1813"></path>
+        </g>
+    </g>
+</svg>

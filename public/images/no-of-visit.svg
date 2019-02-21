@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>no.of.visit</title>
+    <desc>Created with Sketch.</desc>
+    <g id="no.of.visit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-13" transform="translate(16.000000, 9.000000)" fill="#8D1813" fill-rule="nonzero">
+            <circle id="Oval" cx="47.1028037" cy="43.5140187" r="15.7009346"></circle>
+            <path d="M48.0186916,66 L48.0186916,66 C62.3884182,66 74.0373832,77.648965 74.0373832,92.0186916 L74.0373832,109.962617 L22,109.962617 L22,92.0186916 C22,77.648965 33.648965,66 48.0186916,66 Z" id="Rectangle"></path>
+            <rect id="Rectangle" x="0" y="43.9626168" width="19.7383178" height="6.28037383"></rect>
+            <polygon id="Rectangle-Copy-5" transform="translate(47.102804, 9.420561) rotate(-270.000000) translate(-47.102804, -9.420561) " points="37.682243 6.28037383 56.5233645 6.28037383 56.5233645 12.5607477 37.682243 12.5607477"></polygon>
+            <rect id="Rectangle-Copy" x="76.2616822" y="43.9626168" width="19.7383178" height="6.28037383"></rect>
+            <polygon id="Rectangle-Copy-2" transform="translate(75.522936, 21.141939) rotate(-42.000000) translate(-75.522936, -21.141939) " points="66.6920744 17.6451273 84.3914019 17.5511154 84.3537972 24.6387513 66.6544696 24.7327631"></polygon>
+            <polygon id="Rectangle-Copy-3" transform="translate(19.376147, 21.141939) scale(-1, 1) rotate(-42.000000) translate(-19.376147, -21.141939) " points="10.5452854 17.6451273 28.2446129 17.5511154 28.2070082 24.6387513 10.5076806 24.7327631"></polygon>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Plane take off</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Plane-take-off" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="Group-7" transform="translate(30.034857, 29.747659) rotate(-20.000000) translate(-30.034857, -29.747659) translate(9.034857, 14.247659)" stroke="#2A8FE5">
+            <path d="M25.5652174,18 L38.3478261,18 C40.3081304,18 42,16.188 42,15 C42,12.78 37.2448696,11 33.7826087,11 L8.2173913,11 L2.73913043,6 L0,7 C0,7 2.79665217,12.438 4.56521739,15 C2.51086957,15 2.39673913,18 4.56521739,18 L17.3478261,18" id="Stroke-1"></path>
+            <polyline id="Stroke-3" points="27 15 21.6666667 22 12.7777778 31 11 30 15.4444444 22 18.1111111 15"></polyline>
+            <polyline id="Stroke-5" points="22 9 12.8333333 0 11 1 15.5833333 9"></polyline>
+        </g>
+    </g>
+</svg>

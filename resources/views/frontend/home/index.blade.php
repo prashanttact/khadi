@@ -1,0 +1,228 @@
+@extends('frontend.inc.head')
+@section('content')
+
+@include('frontend.inc.slider')
+
+@include('frontend.inc.eligibilityBox')
+
+
+  <!-- Page Content section start -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100 ">
+          <div class=" card-body card-body-block">
+            <img src="image/no-of-visit.svg" class="card-img-left">
+            <h3 class="card-head">No. of Visits</h3>
+            <h1 class="card-title-main">0566</h1>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100">
+          <div class="card-body card-body-block">
+            <img src="image/top-schemes.svg" class="card-img-left">
+            <h3 class="card-head">Top Schemes</h3>
+            <h1 class="card-title-main">Gramodayvar Yojana </h1>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100">
+          <div class="card-body card-body-block">
+            <img src="image/enquires.svg" class="card-img-left">
+            <h3 class="card-head">No. of Enquiries</h3>
+            <h1 class="card-title-main">0998</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Page Content section End -->
+
+  <!-- Introduction section Start -->
+  <section class="background-light">
+    <div class="container">
+      <h2 class="text-center tittle-heading">Introduction</h2>
+      <h3 class="text-center tittle-heading-hindi">खादी विकास योजना</h3>
+      <p class="text-center mt-4">"खादी" का अर्थ है कपास, रेशम या ऊन के हाथ कते सूत अथवा इनमें से दो या सभी प्रकार के
+        सूतों
+        के मिश्रण से भारत में हथकरघे पर बुना गया कोई भी वस्त्र। </p>
+      <p class="text-center mt-4 my-4">"ग्रामोद्योग" का अर्थ है, ऐसा कोई भी उद्योग जो ग्रामीण क्षेत्रों में स्थित हो
+        तथा जो
+        विद्युत के उपयोग या बिना उपयोग के कोई माल तैयार करता हो या कोई सेवा प्रदान करता हो तथा जिसमें स्थायी पूँजी
+        निवेश (संयंत्र तथा मशीनरी एवं भूमि भवन में) प्रति कारीगर या कर्मी पचास हजार रूपये से अधिक न हो। इस हेतु
+        परिभाषित "ग्रामीण क्षेत्र में" समस्त राजस्व ग्राम तथा 20 हजार तक की आवादी वाले कस्बे सम्मिलित है। </p>
+    </div>
+  </section>
+  <section class="background-image-block">
+    <div class="container background-padding">
+      <div class="row">
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100 card-shadow">
+            <a href="#"><img class="card-img-top" src="image/intro1.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title text-center"> <a href="#">खादी एवं ग्रामोद्योगी योजनाएं</a></h4>
+              <p class="card-text">ग्रामोद्योग" का अर्थ है, ऐसा कोई भी उद्योग जो ग्रामीण क्षेत्रों में स्थित हो तथा जो
+                विद्युत के उपयोग या बिना उपयोग के कोई माल…</p>
+            </div>
+            <span class="btn btn-rounded btn-primary btn-readmore" title="Read More">
+              Read More
+            </span>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100 card-shadow">
+            <a href="#"><img class="card-img-top" src="image/intro2.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title text-center">
+                <a href="#">मुख्यमंत्री ग्रामोद्योग रोजगार योजना</a>
+              </h4>
+              <p class="card-text">ग्रामोद्योग" का अर्थ है, ऐसा कोई भी उद्योग जो ग्रामीण क्षेत्रों में स्थित हो तथा जो
+                विद्युत के उपयोग या बिना उपयोग के कोई माल…</p>
+            </div>
+            <span class="btn btn-rounded btn-primary btn-readmore" title="Read More">
+              Read More
+            </span>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100 card-shadow">
+            <a href="#"><img class="card-img-top" src="image/intro3.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title text-center">
+                <a href="#">प्रधानमंत्री रोजगार सृजन कार्यक्रम</a>
+              </h4>
+              <p class="card-text">ग्रामोद्योग" का अर्थ है, ऐसा कोई भी उद्योग जो ग्रामीण क्षेत्रों में स्थित हो तथा जो
+                विद्युत के उपयोग या बिना उपयोग के कोई माल…</p>
+            </div>
+            <span class="btn btn-rounded btn-primary btn-readmore" title="Read More">
+              Read More
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Introduction section End -->
+
+  <!-- Faq section start-->
+  <section class="mt-5 mb-5">
+    <div class="container">
+      <h2 class="text-center tittle-heading"> FAQ’s</h2>
+      <div class="card card-faq">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="tab h-100">
+              <!--This block will generate dynamic categories of FAQ -->
+              @if(isset($faq))
+                @foreach($category_list as $category)
+                <button class="tablinks" onclick="openCity(event, '<?php echo $category->id; ?>')" id="defaultOpen">{{$category->category}}</button>
+                @endforeach
+              @endif
+              <!-- -->
+            </div>
+          </div>
+
+          <div class="col-md-9  h-100">
+            <div class="faq-blocks">
+              <!--This block will first generate a div with category id and then will display all FAQ related to linked categories, the if condition will only display FAQ matching to particular category  -->
+              @foreach($category_list as $category2)
+                 <div id="{{$category2->id}}" class="tabcontent">
+                    @if(isset($faq))
+                      @foreach($faq as $faq1)
+                        @if($faq1->category_id==$category2->id)
+                          <h4>{{$faq1->faq_question}}</h4>
+                          <p>{{$faq1->faq_answer}}</p>
+                        @endif
+                      @endforeach
+                    @endif
+                  </div>
+              @endforeach
+
+            </div>
+          </div>
+        </div> <!--  row ends here -->
+      </div>
+    </div>
+  </section>
+  <!-- feedback section -->
+
+
+<form action="{{url('feedback')}}" method="POST">
+{{csrf_field()}}
+  <section class="bg-query-form">
+    <div class="container">
+      <h2 class="text-center tittle-heading query-head mt-5, my-5 "> Feedback/Query form</h2>
+      <h4>Success Message</h4>
+      @if(session()->has('message'))
+      <div class="alert alert-success">
+        {{ session()->get('message') }}
+      </div>
+      @endif
+      <p> If you have any query / feedback for Uttar Pradesh Khadi & Village Industries Board and
+        need assistance then please fill below form and we will assist you further.</p>
+      <div class="row">
+        <div class="col-md-5 mt-3, my-3 query-block-left">
+          <!--<form name="sentMessage" novalidate> -->
+            <div class="control-group form-group">
+              <div class="controls">
+                <label>Full Name</label>
+                <input type="text" class="form-control no-border-input" required data-validation-required-message="Please enter your name." name="name">
+                <p class="help-block"></p>
+              </div>
+            </div>
+            <div class="control-group form-group">
+              <div class="controls">
+                <label>Mobile Number</label>
+                <input type="text" class="form-control no-border-input" required data-validation-required-message="Please enter your phone number." name="mobile_no">
+              </div>
+            </div>
+         <!-- </form>  -->
+        </div>
+        <div class="col-md-5 mt-3, my-3 query-block-right">
+         <!-- <form name="sentMessage" no validate> -->
+            <div class="control-group form-group">
+              <div class="controls">
+                <label>Email Address</label>
+                <input type="email" class="form-control no-border-input" required data-validation-required-message="Please enter your email id." name="email_id">
+                <p class="help-block"></p>
+              </div>
+            </div>
+            <div class="control-group form-group">
+              <div class="controls">
+                <label>Query/Feedback type</label>
+                @if(isset($faq))
+                <select class="form-control no-border-input" name="query_type">
+                  @foreach($query_type as $query)
+                    <option value="{{$query->id}}">{{$query->query_type}}</option>
+                  @endforeach
+                </select>
+                @endif
+                <!--
+                <input type="text" class="form-control no-border-input" required data-validation-required-message="Please enter your phone number." name="query_type">
+                -->
+              </div>
+            </div>
+          <!--</form> -->
+        </div>
+
+        <div class="col-md-12">
+          <div class="control-group form-group">
+            <div class="controls">
+              <label>Message:</label>
+              <textarea rows="3" cols="50" class="form-control no-border-input" required
+                data-validation-required-message="Please enter your message" maxlength="999" name="message"></textarea>
+            </div>
+          </div>
+          <div class="control-group form-group">
+            <div class="controls">
+              <button type="submit" class="btn btn-primary submit-btn">Submit </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</form>
+@stop

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="149px" height="289px" viewBox="0 0 149 289" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 9 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="37.7269514%" y1="0%" x2="117.506728%" y2="92.1257024%" id="linearGradient-1">
+            <stop stop-color="#123ECF" offset="0%"></stop>
+            <stop stop-color="#53C1FD" offset="47.5247532%"></stop>
+            <stop stop-color="#A8E63C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="strategy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.314481">
+        <g id="Strategic-Plan" transform="translate(0.000000, -755.000000)">
+            <g id="Group-9-Copy" transform="translate(-0.059404, 901.794804) rotate(337.000000) translate(0.059404, -901.794804) translate(-140.059404, 758.294804)">
+                <g id="Group-3"></g>
+                <path d="M175.763793,15.2768769 C239.908812,15.2768769 301.57428,171.311606 271.28911,211.769965 C251.098996,238.742204 162.649629,263.774149 5.94100768,286.8658 C76.3928516,105.806518 133.000447,15.2768769 175.763793,15.2768769 Z" id="Triangle-Copy" fill="url(#linearGradient-1)" opacity="0.329999983"></path>
+                <path d="M169.822785,0 C233.967805,0 295.633272,156.034729 265.348102,196.493088 C245.157989,223.465327 156.708621,248.497272 0,271.588923 C70.4518439,90.5296409 127.059439,3.25826111e-15 169.822785,0 Z" id="Triangle" fill="url(#linearGradient-1)" opacity="0.582088695"></path>
+            </g>
+        </g>
+    </g>
+</svg>
