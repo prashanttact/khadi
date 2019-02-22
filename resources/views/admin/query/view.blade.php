@@ -45,7 +45,15 @@
                   <td><?php echo $row->name; ?></td>
                   <td><?php echo $row->email_id; ?></td>
                   <td><?php echo $row->mobile_no; ?></td>
-                  <td><?php echo $row->queryFeedbackType->query_type ?></td>
+                  <td>
+                    <?php 
+                    if(isset($row->queryFeedbackType->query_type))
+                      {
+                        echo $row->queryFeedbackType->query_type;
+                      }
+                    ?>
+                      
+                    </td>
                   <td><?php echo substr($row->remark,0,50)."..." ?></td>
                   <td>
                     <center>

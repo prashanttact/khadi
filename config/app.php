@@ -164,6 +164,7 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
         Maatwebsite\Excel\ExcelServiceProvider::class,
+        Kryptonit3\Counter\CounterServiceProvider::class,
 
 
 
@@ -234,6 +235,7 @@ return [
         'Helper' => App\Http\Helper\CommonHelper::class,
         'Excel' => Maatwebsite\Excel\Facades\Excel::class,
         'PDF' => Barryvdh\DomPDF\Facade::class,
+        'Counter' => Kryptonit3\Counter\Facades\CounterFacade::class,
 
     ],
 

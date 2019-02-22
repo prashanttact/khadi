@@ -1,5 +1,5 @@
 <!-- footer  style-->
-  <footer class="py-4 header-bg">
+  <footer class="py-4 header-bg" id="contact_us">
     <div class="container">
       <p class="m-0 text-center text-white">कापीराइट © उत्‍तर प्रदेश खादी तथा ग्रामोद्योग बोर्ड को सभी अधिकार सुरक्षित
         हैं।</p>

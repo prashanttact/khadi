@@ -32,7 +32,7 @@ Route::get('/clear-cache', function() {
 //Homepage Controller
 Route::get('/', 'HomeController@homePage')->name('home-page');
 Route::get('homePage', 'HomeController@homePage');
-Route::get('pageUnderConstruction/{pageName}','HomeController@pageUnderConstruction');
+Route::get('pageUnderConstruction','HomeController@pageUnderConstruction');
 Route::post('feedback','HomeController@saveFeedback');
 Route::get('eligibilityCheck','HomeController@checkEligibility');
 Route::post('checkUserEligibility','HomeController@checkUserEligibility');

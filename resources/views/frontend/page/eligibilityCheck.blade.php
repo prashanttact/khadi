@@ -15,13 +15,12 @@
         <div class="col-md-3 registtration-login">
           <img src="image/loginlogo.png" class="login-bg" alt="Khadi Logo">
           <hr class="border-bottom">
-          <p class="login-text text-center"> here is no one who loves pain itself, who seeks after it and wants to have
-            it, simply because</p>
+          <p class="login-text text-center"></p>
         </div>
         <div class="col-md-9">
           <div class="registration-block">
-            <h3> Scheme Eligibility </h3>
-            {{str_plural('legal_status')}}
+            <h3> योजना  पात्रता  फ़ॉर्म</h3>
+            
             <div class="registration-card card">
               <h4 class="head-details"> Personal information</h4>
               <div class="col-md-12">
@@ -56,14 +55,16 @@
                     <div class="form-group">
                       <select name="district" class="form-control no-border-input" required>
                         <option value="" class="hidden" selected="" disabled="">District</option>
-                        <option>Lucknow</option>
-                        <option>Kanpur</option>
-                        <option>Banaras</option>
+                        @if(isset($districts))
+                          @foreach($districts as $row)
+                          <option value="{{$row->id}}">{{$row->name_en}}</option>
+                          @endforeach
+                        @endif
                       </select>
                     </div>
                     <div class="form-group">
                       <select placeholder="Caste" name="caste" class="form-control no-border-input" required>
-                        <option value="" class="hidden" selected="" disabled="">Applicant belongs to ?</option>
+                        <option value="" class="hidden" selected="" disabled="">Applicant belongs to </option>
                         @if(isset($caste))
                           @foreach($caste as $caste)
                             <option value="{{$caste->value}}">{{$caste->name}}</option>
@@ -173,9 +174,9 @@
               <div class="col-md-12">
                 <div class="form-group">
                   <div class="row">
-                    <div class="col-md-3"> <label>Your employment Reg status</label>
+                    <div class="col-md-4"> <label>Your employment Reg status</label>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-2">
                       <div class="maxl">
                         <label class="radio inline">
                           <input type="radio" name="employment_registration" value="1"  required>
@@ -187,9 +188,9 @@
                         </label>
                       </div>
                     </div>
-                    <div class="col-md-3"> <label>Do you have adhar card?</label>
+                    <div class="col-md-4"> <label>Do you have adhar card?</label>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-2">
                       <div class="maxl">
                         <label class="radio inline">
                           <input type="radio" name="adhaar" value="yes"  required>
@@ -205,9 +206,9 @@
                 </div>
                 <div class="form-group">
                   <div class="row">
-                    <div class="col-md-3"> <label>Any Gov Training Certification ?</label>
+                    <div class="col-md-4 mt-3"> <label>Any Gov Training Certification ?</label>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-2 mt-3">
                       <div class="maxl">
                         <label class="radio inline">
                           <input type="radio" name="govTraining_cer" value="yes"  required id="govT_yes">
@@ -221,8 +222,8 @@
                     </div>
                     <div class="col-md-6">
                       <div class="form-group">
-                        <select name="govTrainig_type" class="form-control no-border-input" required id="govT_select">
-                          <option value="" class="hidden" selected="" disabled="">Gov Training Type</option>
+                        <select name="govTraining_type" class="form-control no-border-input" required id="govT_select" disabled="">
+                          <option value="" class="hidden" selected="" disabled="">Select Gov. Trainig Type</option>
                           @if(isset($govTraining))
                             @foreach($govTraining as $training)
                             @if($training->display==1)
@@ -240,9 +241,9 @@
 
                 <div class="form-group">
                   <div class="row">
-                    <div class="col-md-3"> <label>Any Private Training Certification ?</label>
+                    <div class="col-md-4 mt-3"> <label>Any Private Training Certification ?</label>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-2 mt-3">
                       <div class="maxl">
                         <label class="radio inline">
                           <input type="radio" name="pvtTraining_cer" value="yes"  required>
@@ -256,8 +257,8 @@
                     </div>
                     <div class="col-md-6">
                       <div class="form-group">
-                        <select name="pvtTrainig_type" class="form-control no-border-input" required id="pvtT_select">
-                          <option value="" class="hidden" selected="" disabled="">Private Training Type</option>
+                        <select name="pvtTraining_type" class="form-control no-border-input" required id="pvtT_select" disabled="">
+                          <option value="" class="hidden" selected="" disabled="">Select Private Training Type</option>
                             @if(isset($pvtTraining))
                             @foreach($pvtTraining as $pvtTraining)
                               @if($pvtTraining->display==1)
@@ -307,7 +308,7 @@
             </div>
             <div class="control-group form-group mt-5">
                 <div class="controls">
-                  <button type="submit" class="btn btn-primary submit-btn" id="checkBtn">Check Now </button>
+                  <button type="submit" class="btn btn-primary submit-btn" id="checkBtn">जांच करें </button>
                 </div>
               </div>
           </div>

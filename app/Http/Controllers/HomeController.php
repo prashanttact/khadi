@@ -26,6 +26,7 @@ use App\Area;
 use App\LegalStatus;
 use App\EligibilityCriteria;
 use App\Scheme;
+use App\District;
 use Illuminate\Support\Facades\Input;
 
 
@@ -51,20 +52,22 @@ class HomeController extends Controller
       $faq=Faq::all();
       $category_list=Category::all();
       $query_type = QueryFeedbackType::all();
+      $noOfQueries=Query::all();
       //return $faq;
         if(!$faq->isEmpty() && !$category_list->isEmpty()){
           //return $faq;
-        return view('frontend.home.index',compact('faq','category_list','query_type'));//,compact(['data','data_news','data_alerts','data_gallery']));
+        return view('frontend.home.index',compact('faq','category_list','query_type','noOfQueries'));//,compact(['data','data_news','data_alerts','data_gallery']));
         }
         else{
           return view('frontend.home.index');
         }
     }
 
-    public function pageUnderConstruction(Request $request){
-      $pageName=$request->pageName;
+    public function pageUnderConstruction(){
+      //$pageName=$request->pageName;
       //return $pageName;
-      return view('frontend.UnderConstruction',compact('pageName'));
+      //return "Hi";
+      return view('frontend.underConstruction');
     }
 
     public function saveFeedback(Request $request){
@@ -101,9 +104,10 @@ class HomeController extends Controller
       $annual_income=AnnualIncome::all();
       $area=Area::all();
       $legal_status=LegalStatus::all();
+      $districts=District::all();
       
 
-      return view('frontend.page.eligibilityCheck')->with(['caste'=>$caste,'govTraining'=>$govTraining,'pvtTraining'=>$pvtTraining,'loanLimit'=>$loanLimit,'industry'=>$industry,'edu_qualification'=>$edu_qualification,'annual_income'=>$annual_income,'area'=>$area,'legal_status'=>$legal_status]);
+      return view('frontend.page.eligibilityCheck')->with(['caste'=>$caste,'govTraining'=>$govTraining,'pvtTraining'=>$pvtTraining,'loanLimit'=>$loanLimit,'industry'=>$industry,'edu_qualification'=>$edu_qualification,'annual_income'=>$annual_income,'area'=>$area,'legal_status'=>$legal_status,'districts'=>$districts]);
     }
 
     public function checkUserEligibility(Request $request){
@@ -118,11 +122,12 @@ class HomeController extends Controller
       //$request->edu_qualification=max($request->edu_qualification);
       //return  $edu_qualification;
 
-      if(!isset($request->govTraining_cer)){
-        $request->govTraining_cer=0;
+      if($request->govTraining_cer=='no'){
+        //echo "Value Set +++++";
+        $request->govTraining_type=0;
       }
-      if(!isset($request->pvtTraining_cer)){
-        $request->pvtTraining_cer=0;
+      if($request->pvtTraining_cer=='no'){
+        $request->pvtTraining_type=0;
       }
       
       
@@ -142,20 +147,21 @@ class HomeController extends Controller
 
         }
 
-          if($row->criteria_name=='area' && $row->criteria_value==$request->area){
-          if($row->scheme_id==3){
+          if($row->criteria_name=='area' ){
+          if($row->scheme_id==3 && $row->criteria_value==$request->area){
             $scheme['s3']++;
             //echo 'area matched for scheme 3 </br>';
           }
-        }
-          elseif($row->criteria_name=='area' && $row->scheme_id==5){
+          elseif($row->scheme_id==5){
             $scheme['s5']++;
             //echo 'area matched for scheme 5 </br>';
           }
         
+        }
+          
 
-          if($row->criteria_name=='edu_qualification' && $row->criteria_value<=$request->edu_qualification){
-          if($row->scheme_id==3){
+          if($row->criteria_name=='edu_qualification' ){
+          if($row->scheme_id==3 && $row->criteria_value<=$request->edu_qualification){
             $scheme['s3']++;
             //echo 'education matched for scheme 3 </br>';
           }
@@ -167,10 +173,11 @@ class HomeController extends Controller
 
         }
 
-          if($row->criteria_name=='govTraining_type' && $row->criteria_value==$request->govTraining_type){
-          if($row->scheme_id==3){
+          if($row->criteria_name=='govTraining_type' ){
+            //echo "%%%%%%%%% ".$request->govTraining_type;
+          if($row->scheme_id==3 && $row->criteria_value>=$request->govTraining_type && $request->govTraining_type!=0){
             $scheme['s3']++;
-            //echo 'gov training matched for scheme 3 </br>';
+            //echo '!!!!!!gov training matched for scheme 3 </br>';
           }
           elseif($row->scheme_id==5){
             $scheme['s5']++;
@@ -181,8 +188,9 @@ class HomeController extends Controller
 
         }
 
-          if($row->criteria_name=='pvtTraining_type' && $row->criteria_value==$request->pvtTraining_type){
-          if($row->scheme_id==3){
+          if($row->criteria_name=='pvtTraining_type' ){
+            //echo "Hello";
+          if($row->scheme_id==3 && $row->criteria_value==$request->pvtTraining_type){
             $scheme['s3']++;
             //echo 'pvt matched for scheme 3 </br>';
           }
@@ -194,9 +202,9 @@ class HomeController extends Controller
 
         }
 
-          if($row->criteria_name=='employment_registration' && $row->criteria_value<=$request->employment_registration
+          if($row->criteria_name=='employment_registration' 
         ){
-          if($row->scheme_id==3){
+          if($row->scheme_id==3 && $row->criteria_value==$request->employment_registration){
             $scheme['s3']++;
             //echo 'employment_registration matched for scheme 3 </br>';
           }
@@ -205,11 +213,11 @@ class HomeController extends Controller
             //echo 'employment_registration matched for scheme 5 </br>';
           }
           
+          }
+          
 
-        }
-
-          if($row->criteria_name=='industry' && $row->criteria_value<=$request->industry){
-          if($row->scheme_id==3){
+          if($row->criteria_name=='industry' ){
+          if($row->scheme_id==3 &&  $row->criteria_value==$request->industry){
             $scheme['s3']++;
             //echo 'industry matched for scheme 3 </br>';
           }
@@ -221,30 +229,31 @@ class HomeController extends Controller
 
         }
 
-          if($row->criteria_name=='loan_requirement' && $row->criteria_value>=$request->loan_requirement){
-          if($row->scheme_id==3){
+          if($row->criteria_name=='loan_requirement' ){
+          if($row->scheme_id==3 && $row->criteria_value==$request->loan_requirement){
             $scheme['s3']++;
             //echo 'loan matched for scheme 3 </br>';
           }
           elseif($row->scheme_id==5){
-            $scheme['s5']++;
-            //echo 'loan matched for scheme 5 </br>';
+            // $scheme['s5']++;
+            // echo 'loan matched for scheme 5 </br>';
           }
           
 
         }
 
         if($row->scheme_id==5 && $row->criteria_name=='loan_requirement'){
-          if($request->edu_qualification>=$row->criteria_value && $request->loan_requirement>=$row->loan_requirement){
+          if($request->edu_qualification>=$row->criteria_value){
+            $scheme['s5']++;
             //echo '<br>user edu : '.$request->edu_qualification."==";
             //echo 'database edu : '.$row->criteria_value."==";
             //echo 'user loan : '.$request->loan_requirement."==";
             //echo 'database loan : '.$row->criteria_value."<br>";
             //echo "</br>at least class 10th pass with loan demand over 15 lakhs<br>";
           }
-          elseif($request->edu_qualification<$row->criteria_value && $request->loan_requirement>=$row->criteria_value){
+          elseif($request->loan_requirement<=2){
             //echo "under 10 and loan deman is over 10 lakhs<br>";
-            $scheme['s5']--;
+            $scheme['s5']++;
           }
         }
 
@@ -289,14 +298,24 @@ class HomeController extends Controller
 
 
       foreach($scheme as $key=>$value){
+
         $scheme_list[]=DB::table('schemes')->where('array_key','=',$key)->first();
+        // $scheme_id=substr($key,1,1);
+        // $eligibility=DB::table('eli')
+        // echo $scheme_id;
+        // exit;
       }
      // print_r(expression)
 
       // print_r($scheme_list);
       // echo $scheme_list[0]->id;
       //exit;
-      return view('frontend.page.schemeList',compact('scheme_list'));
+      $eligibility=EligibilityCriteria::all();
+
+      //echo '<pre>';
+      //print_r($eligibility[0]['id']);
+      //exit;
+      return view('frontend.page.schemeList',compact('scheme_list','eligibility','scheme'));
 
 
   }
